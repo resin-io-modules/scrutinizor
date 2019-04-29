@@ -96,10 +96,22 @@ capitano.command({
   }
 })
 
+capitano.command({
+  signature: 'combine <path> <url>',
+  description: 'Retrieve metadata about a local checkout of a repo',
+  action: ({ path, url }, { help, reference = 'master' }) => {
+    if (help) {
+      showHelp()
+      process.exit(1)
+    }
+
+    scrutinizer.combined({ path, url }, { reference }).then(result => prettyPrint(result))
+  }
+})
+
 capitano.run(process.argv, err => {
   if (!err) return
 
   showHelp()
   throw err
 })
-

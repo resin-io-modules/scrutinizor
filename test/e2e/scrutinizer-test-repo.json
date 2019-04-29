@@ -2,7 +2,25 @@
   "name": "scrutinizer-test-repo",
   "url": "git@github.com:balena-io-modules/scrutinizer-test-repo",
   "reference": "39552d4a3bcc73e2fd8724631cb5c71e7aaa0bfa",
-  "result": {
+  "local": {
+    "public": null,
+    "license": "Apache-2.0",
+    "contributing": "This is a placeholder file.\n\nWe strongly urge you to checkout [Scrutinizer](https://github.com/balena-io-modules/scrutinizer) instead.\n",
+    "architecture": null,
+    "lastCommitDate": null,
+    "latestRelease": null,
+    "latestPreRelease": null,
+    "dependencies": [
+      "@octokit/rest",
+      "bluebird",
+      "debug",
+      "lodash",
+      "moment",
+      "simple-git",
+      "tmp"
+    ]
+  },
+  "remote": {
     "public": true,
     "fork": false,
     "license": "Apache-2.0",

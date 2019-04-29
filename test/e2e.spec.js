@@ -38,7 +38,7 @@ _.each(CASES, (testCase) => {
       reference: testCase.reference,
       progress: logProgress
     }).then((data) => {
-      test.deepEqual(data, testCase.result)
+      test.deepEqual(data, testCase.local)
     })
   })
 
@@ -47,7 +47,7 @@ _.each(CASES, (testCase) => {
       reference: testCase.reference,
       progress: logProgress
     }).then((data) => {
-      test.deepEqual(data, testCase.result)
+      test.deepEqual(data, testCase.remote)
     })
   })
 })
