@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## v1.1.0 - 2018-01-17
 
+## 2.0.1 - 2020-07-03
+
+* Only test for node versions 10 & 12. [Carlo Miguel Cruz]
+
 ## 2.0.0 - 2020-06-25
 
 * Detect and report deploy to balena buttons [Amit Solanki]
