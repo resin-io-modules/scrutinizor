@@ -52,7 +52,7 @@
     "lodash": "^4.17.4",
     "markdown": "^0.5.0",
     "mmmagic": "^0.5.3",
-    "nodegit": "^0.26.0",
+    "nodegit": "^0.27.0",
     "puppeteer": "^1.20.0",
     "rehype-autolink-headings": "^5.1.0",
     "rehype-raw": "^4.0.2",
